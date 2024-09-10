@@ -59,11 +59,9 @@ public class Department {
     private String location;
 
     public Department() {
-        super();
     }
 
     public Department(String name, String location) {
-        super();
         this.name = name;
         this.location = location;
     }
@@ -119,11 +117,9 @@ public class Employee {
     private Department department;
 
     public Employee() {
-        super();
     }
 
     public Employee(String firstName, String lastName) {
-        super();
         this.firstName = firstName;
         this.lastName = lastName;
     }
